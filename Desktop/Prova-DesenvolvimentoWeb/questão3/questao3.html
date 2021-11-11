@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Questão 3 - Prova - Mariana Pereira 
+-->
+    <meta charset="utf-8" />
+    <title>Questão 3 - Prova</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="questao3.css">
+</head>
+<body class="questao3">
+    
+    <p id="p-questao3"></p>
+
+    <script>
+        var a = prompt('Informe uma Cor (Maiúsculo): AZUL, VERDE, VERMELHO');
+        if (a === 'AZUL'){
+            var fundo = document.querySelector('.questao3');
+            fundo.style.backgroundColor ='#0000FF' ;
+            document.getElementById('p-questao3').innerHTML = "Bem Vindo a Prova de PPI";
+        }
+        if(a === 'VERDE'){
+            var fundo = document.querySelector('.questao3');
+            fundo.style.backgroundColor= '#00FF00' ;
+            document.getElementById('p-questao3').innerHTML = "Bem Vindo a Prova de PPI";
+        }
+        if(a === 'VERMELHO'){
+            var fundo = document.querySelector('.questao3');
+            fundo.style.backgroundColor = '#FF0000';
+            document.getElementById('p-questao3').innerHTML = "Bem Vindo a Prova de PPI";
+        }
+    </script>
+
+</body>
+</html>
